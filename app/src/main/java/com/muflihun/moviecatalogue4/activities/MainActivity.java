@@ -44,6 +44,11 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.menu_nav_tvShow:
                     title = getResources().getString(R.string.tv_show);
                     break;
+                case R.id.menu_nav_favorite:
+                    title = getResources().getString(R.string.favorite);
+                    break;
+                default:
+                    title = getResources().getString(R.string.app_name);
             }
         }
 
